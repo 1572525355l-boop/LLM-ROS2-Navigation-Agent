@@ -13,3 +13,6 @@ __pycache__/
 build/
 install/
 log/
+# Python packaging artifacts
+*.egg-info/
+dist/

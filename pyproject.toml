@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llm-ros2-navigation-agent"
+version = "0.1.0.dev0"
+description = "Natural-language task planning for ROS2 mobile robot navigation."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+llm-nav-agent = "llm_ros2_navigation_agent.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
