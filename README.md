@@ -51,4 +51,3 @@ python -m unittest discover -s tests -v
 ## License
 
 本项目使用 [MIT License](LICENSE)。
-
